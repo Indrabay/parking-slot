@@ -1,0 +1,10 @@
+- install go latest version
+- install mysql
+- clone this project
+- change configuration in const config.go
+- install dependencies
+  - go get -u "github.com/gin-gonic/gin"
+  - go get -u "github.com/jinzhu/gorm"
+  - go get -u "github.com/jinzhu/gorm/dialects/mysql"
+  - go get -u "github.com/go-sql-driver/mysql"
+- go build main.go && ./main
